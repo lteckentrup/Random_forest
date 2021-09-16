@@ -45,12 +45,12 @@ start_time = time.time()
 with sys_pipes():
     model1.fit(x=train_ds)
 
-# file_name = "/mnt/e/Data/flux_Gab/half_hourly/RFTF/model_bin{}.csv".format(bin)
-# model1.save(file_name)
-# end_time = time.time()
+file_name = "model.csv"
+model1.save(file_name)
+end_time = time.time()
 
-# time_need = end_time - start_time
-# print("time needed to run 100 forest is {}".format(time_need))
+time_need = end_time - start_time
+print("time needed to run 10 forest is {}".format(time_need))
 
 # ##############################################################################################
 # ##############################################################################################
