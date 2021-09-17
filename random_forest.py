@@ -10,6 +10,7 @@ from wurlitzer import sys_pipes
 import time
 import netCDF4 as nc
 import os
+from numpy.random import rand
 
 print("Num GPUs Available: ", len(tf.config.experimental.list_physical_devices('GPU')))
 
