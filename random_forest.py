@@ -13,7 +13,7 @@ import os
 
 print("Num GPUs Available: ", len(tf.config.experimental.list_physical_devices('GPU')))
 
-models = ['CanESM5', 'CESM2-WACCM','CMCC-CM2-SR5', 'EC-Earth3', 'EC-Earth3-Veg]
+models = ['CanESM5', 'CESM2-WACCM','CMCC-CM2-SR5', 'EC-Earth3', 'EC-Earth3-Veg']
 a = rand(20)
 b = rand(20)
 c = rand(20)
