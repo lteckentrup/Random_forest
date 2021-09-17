@@ -15,12 +15,12 @@ from numpy.random import rand
 print("Num GPUs Available: ", len(tf.config.experimental.list_physical_devices('GPU')))
 
 models = ['CanESM5', 'CESM2-WACCM','CMCC-CM2-SR5', 'EC-Earth3', 'EC-Earth3-Veg']
-a = rand(20)
-b = rand(20)
-c = rand(20)
-d = rand(20)
-d = rand(20)
-e = rand(20)
+a = np.random.randn(20)
+b = np.random.randn(20)
+c = np.random.randn(20)
+d = np.random.randn(20)
+d = np.random.randn(20)
+e = np.random.randn(20)
 
 fake_data = [a,b,c,d,e]
 train_df = pd.DataFrame()
