@@ -5,7 +5,6 @@
 ```
 module purge
 rm -r /home/561/lt0205/.local/lib/python3.9
-module load tensorflow/2.6.0
 python3 -mvenv --system-site-packages my-venv
 my-venv/bin/pip3 install --upgrade pip
 my-venv/bin/pip3 install --no-binary :all: pandas
