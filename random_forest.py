@@ -41,7 +41,6 @@ q = np.random.randn(20)
 fake_data_train = [a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p]
 full_df = pd.DataFrame()
 for m,fd in zip(models,fake_data_train):
-
     full_df[m] = fd
 
 full_df[target] = q
